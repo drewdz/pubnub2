@@ -1,0 +1,136 @@
+2023-06-06 12:55:16.835 -05:00 [ERR] MessagingService.OnMessageReceived - Error receiving message.
+Unexpected character encountered while parsing value: H. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: H. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize[T](JsonReader reader)
+   at PubnubMessaging.JsonGenericSerializer.Deserialize[TItem](String json) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\JsonGenericSerializer.cs:line 45
+   at PubnubMessaging.MessageFactory.GetMessage(String message) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\MessageFactory.cs:line 34
+   at PubnubMessaging.Services.MessagingService.OnMessageReceived(Pubnub pubnub, PNMessageResult`1 result) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\Services\MessagingService.cs:line 92
+2023-06-06 13:13:07.199 -05:00 [ERR] MessagingService.OnMessageReceived - Error receiving message.
+Could not create an instance of type PubnubMessaging.Messages.MessageBase. Type is an interface or abstract class and cannot be instantiated. Path 'Id', line 1, position 8.
+Newtonsoft.Json.JsonSerializationException: Could not create an instance of type PubnubMessaging.Messages.MessageBase. Type is an interface or abstract class and cannot be instantiated. Path 'Id', line 1, position 8.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateNewObject(JsonReader reader, JsonObjectContract objectContract, JsonProperty containerMember, JsonProperty containerProperty, String id, Boolean& createdFromNonDefaultCreator)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize[T](JsonReader reader)
+   at PubnubMessaging.JsonGenericSerializer.Deserialize[TItem](String json) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\JsonGenericSerializer.cs:line 45
+   at PubnubMessaging.MessageFactory.GetMessage(String message) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\MessageFactory.cs:line 34
+   at PubnubMessaging.Services.MessagingService.OnMessageReceived(Pubnub pubnub, PNMessageResult`1 result) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\Services\MessagingService.cs:line 92
+2023-06-06 13:13:46.394 -05:00 [ERR] MessagingService.OnMessageReceived - Error receiving message.
+Could not create an instance of type PubnubMessaging.Messages.MessageBase. Type is an interface or abstract class and cannot be instantiated. Path 'Id', line 1, position 8.
+Newtonsoft.Json.JsonSerializationException: Could not create an instance of type PubnubMessaging.Messages.MessageBase. Type is an interface or abstract class and cannot be instantiated. Path 'Id', line 1, position 8.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateNewObject(JsonReader reader, JsonObjectContract objectContract, JsonProperty containerMember, JsonProperty containerProperty, String id, Boolean& createdFromNonDefaultCreator)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize[T](JsonReader reader)
+   at PubnubMessaging.JsonGenericSerializer.Deserialize[TItem](String json) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\JsonGenericSerializer.cs:line 45
+   at PubnubMessaging.MessageFactory.GetMessage(String message) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\MessageFactory.cs:line 34
+   at PubnubMessaging.Services.MessagingService.OnMessageReceived(Pubnub pubnub, PNMessageResult`1 result) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\Services\MessagingService.cs:line 92
+2023-06-06 13:13:59.389 -05:00 [ERR] MessagingService.OnMessageReceived - Error receiving message.
+Unexpected character encountered while parsing value: E. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: E. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize[T](JsonReader reader)
+   at PubnubMessaging.JsonGenericSerializer.Deserialize[TItem](String json) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\JsonGenericSerializer.cs:line 45
+   at PubnubMessaging.MessageFactory.GetMessage(String message) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\MessageFactory.cs:line 34
+   at PubnubMessaging.Services.MessagingService.OnMessageReceived(Pubnub pubnub, PNMessageResult`1 result) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\Services\MessagingService.cs:line 92
+2023-06-06 13:14:03.189 -05:00 [ERR] MessagingService.OnMessageReceived - Error receiving message.
+Unexpected character encountered while parsing value: a. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: a. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize[T](JsonReader reader)
+   at PubnubMessaging.JsonGenericSerializer.Deserialize[TItem](String json) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\JsonGenericSerializer.cs:line 45
+   at PubnubMessaging.MessageFactory.GetMessage(String message) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\MessageFactory.cs:line 34
+   at PubnubMessaging.Services.MessagingService.OnMessageReceived(Pubnub pubnub, PNMessageResult`1 result) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\Services\MessagingService.cs:line 92
+2023-06-06 13:15:00.405 -05:00 [INF] MessagingService.OnMessageReceived - Message received
+Message ID: 6e2a583e-0a53-43a3-a31f-1e3331688493, Timestamp: 6/6/2023 1:12:12 PM -05:00
+2023-06-06 13:15:26.009 -05:00 [INF] MessagingService.ConnectNewUser - New presence. 1234
+2023-06-06 13:17:48.426 -05:00 [ERR] MessagingService.OnMessageReceived - Error receiving message.
+Unexpected end when deserializing object. Path 'MessageType', line 1, position 254.
+Newtonsoft.Json.JsonSerializationException: Unexpected end when deserializing object. Path 'MessageType', line 1, position 254.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ThrowUnexpectedEndException(JsonReader reader, JsonContract contract, Object currentObject, String message)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize[T](JsonReader reader)
+   at PubnubMessaging.JsonGenericSerializer.Deserialize[TItem](String json) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\JsonGenericSerializer.cs:line 45
+   at PubnubMessaging.MessageFactory.GetMessage(String message) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\MessageFactory.cs:line 34
+   at PubnubMessaging.Services.MessagingService.OnMessageReceived(Pubnub pubnub, PNMessageResult`1 result) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\Services\MessagingService.cs:line 92
+2023-06-06 13:18:14.843 -05:00 [ERR] MessagingService.OnMessageReceived - Error receiving message.
+Unexpected end when deserializing object. Path 'MessageType', line 1, position 254.
+Newtonsoft.Json.JsonSerializationException: Unexpected end when deserializing object. Path 'MessageType', line 1, position 254.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ThrowUnexpectedEndException(JsonReader reader, JsonContract contract, Object currentObject, String message)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize[T](JsonReader reader)
+   at PubnubMessaging.JsonGenericSerializer.Deserialize[TItem](String json) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\JsonGenericSerializer.cs:line 45
+   at PubnubMessaging.MessageFactory.GetMessage(String message) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\MessageFactory.cs:line 34
+   at PubnubMessaging.Services.MessagingService.OnMessageReceived(Pubnub pubnub, PNMessageResult`1 result) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\Services\MessagingService.cs:line 92
+2023-06-06 13:19:52.884 -05:00 [ERR] MessagingService.OnMessageReceived - Error receiving message.
+Unexpected character encountered while parsing value: h. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: h. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize[T](JsonReader reader)
+   at PubnubMessaging.JsonGenericSerializer.Deserialize[TItem](String json) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\JsonGenericSerializer.cs:line 45
+   at PubnubMessaging.MessageFactory.GetMessage(String message) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\MessageFactory.cs:line 34
+   at PubnubMessaging.Services.MessagingService.OnMessageReceived(Pubnub pubnub, PNMessageResult`1 result) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\Services\MessagingService.cs:line 92
+2023-06-06 13:20:25.551 -05:00 [ERR] MessagingService.OnMessageReceived - Error receiving message.
+Unexpected end when deserializing object. Path 'MessageType', line 1, position 254.
+Newtonsoft.Json.JsonSerializationException: Unexpected end when deserializing object. Path 'MessageType', line 1, position 254.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ThrowUnexpectedEndException(JsonReader reader, JsonContract contract, Object currentObject, String message)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize[T](JsonReader reader)
+   at PubnubMessaging.JsonGenericSerializer.Deserialize[TItem](String json) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\JsonGenericSerializer.cs:line 45
+   at PubnubMessaging.MessageFactory.GetMessage(String message) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\MessageFactory.cs:line 34
+   at PubnubMessaging.Services.MessagingService.OnMessageReceived(Pubnub pubnub, PNMessageResult`1 result) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\Services\MessagingService.cs:line 92
+2023-06-06 13:20:50.360 -05:00 [ERR] MessagingService.OnMessageReceived - Error receiving message.
+Unexpected end when deserializing object. Path 'MessageType', line 1, position 254.
+Newtonsoft.Json.JsonSerializationException: Unexpected end when deserializing object. Path 'MessageType', line 1, position 254.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ThrowUnexpectedEndException(JsonReader reader, JsonContract contract, Object currentObject, String message)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize[T](JsonReader reader)
+   at PubnubMessaging.JsonGenericSerializer.Deserialize[TItem](String json) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\JsonGenericSerializer.cs:line 45
+   at PubnubMessaging.MessageFactory.GetMessage(String message) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\MessageFactory.cs:line 34
+   at PubnubMessaging.Services.MessagingService.OnMessageReceived(Pubnub pubnub, PNMessageResult`1 result) in C:\Project\Sandbox\PubnubTest2\PubnubMessaging\Services\MessagingService.cs:line 92
+2023-06-06 13:22:16.790 -05:00 [INF] MessagingService.OnMessageReceived - Message received
+Message ID: 6e2a583e-0a53-43a3-a31f-1e3331688493, Timestamp: 6/6/2023 1:12:12 PM -05:00
+2023-06-06 13:22:24.654 -05:00 [INF] MessagingService.ConnectNewUser - New presence. 94F3FB9A-55C8-49CE-A514-434FF2EA2F3C
+2023-06-06 13:23:11.647 -05:00 [INF] MessagingService.OnMessageReceived - Message received
+Message ID: 6e2a583e-0a53-43a3-a31f-1e3331688493, Timestamp: 6/6/2023 1:12:12 PM -05:00
+2023-06-06 13:23:11.654 -05:00 [INF] MessagingService.ConnectNewUser - New presence. 94F3FB9A-55C8-49CE-A514-434FF2EA2F3C
+2023-06-06 13:25:06.577 -05:00 [INF] MessagingService.OnMessageReceived - Message received
+Message ID: 6e2a583e-0a53-43a3-a31f-1e3331688493, Timestamp: 6/6/2023 1:12:12 PM -05:00
+2023-06-06 13:25:06.642 -05:00 [INF] MessagingService.ConnectNewUser - New presence. 94F3FB9A-55C8-49CE-A514-434FF2EA2F3C
